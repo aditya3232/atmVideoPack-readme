@@ -16,16 +16,6 @@ pemantauan CCTV Perbankan Anda.
 - [@DigitalMindsTechnology](https://github.com/DigitalMindsTechnology)
 
 
-
-## Features
-
-- Dashboard
-- Log access with detail
-- Setting door & cctv
-- Master data office, user door access, and cctv
-- Setting admin web
-
-
 ## Tech Stack
 
 **Website:** Laravel Framework 10.14.1
