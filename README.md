@@ -168,6 +168,38 @@ Request :
         }
 }
 ```
+## 5 Publisher Download Playback
+
+Request :
+- Method : POST
+- Endpoint : `{{local}}:3737/publisher/atmvideopack/v1/downloadplayback/create`
+- Header : 
+    - x-api-key : 
+- Body Body (form-data) :
+    - tid : string, required
+    - date_modified : string, required
+    - duration_minutes : string, required
+    - file_size_bytes : string, required
+    - filename : string, required
+    - url : string, required
+- Response :
+
+```json 
+{
+    "meta": {
+        "message": "The request was processed successfully.",
+        "code": 200
+    },
+    "data": {
+        "tid": "160001",
+        "date_modified": "2023-10-30 00:06:00",
+        "duration_minutes": "5.0 menit",
+        "file_size_bytes": "1.69 MB",
+        "filename": "160001_20231030000107.mp4",
+        "url": "http://10.8.0.20:7001/videos/160001/2023-10-30/160001_20231030000107.mp4"
+    }
+}
+```
 
 ## Appendix
 
