@@ -56,9 +56,9 @@ pemantauan CCTV Perbankan Anda.
 
 Request :
 - Method : POST
-- Endpoint : `{{local}}:3333/publisher/atmvideopack/v1/humandetection/create`
+- Endpoint : `103.175.216.8:3333/publisher/atmvideopack/v1/humandetection/create`
 - Header :
-    - x-api-key :
+    - x-api-key : YAHYAAJA
 - Body (form-data) :
     - tid : string, required
     - date_time : string, required
@@ -84,9 +84,9 @@ Request :
 
 Request :
 - Method : POST
-- Endpoint : `{{local}}:3434/publisher/atmvideopack/v1/vandaldetection/create`
+- Endpoint : `103.175.216.8:3434/publisher/atmvideopack/v1/vandaldetection/create`
 - Header : 
-    - x-api-key : 
+    - x-api-key : YAHYAAJA
 - Body Body (form-data) :
     - tid : string, required
     - date_time : string, required
@@ -112,9 +112,9 @@ Request :
 
 Request :
 - Method : POST
-- Endpoint : `{{local}}:3535/publisher/atmvideopack/v1/statusmcdetection/create`
+- Endpoint : `103.175.216.8:3535/publisher/atmvideopack/v1/statusmcdetection/create`
 - Header : 
-    - x-api-key : 
+    - x-api-key : YAHYAAJA
 - Body Body (form-data) :
     - tid : string, required
     - date_time : string, required
@@ -144,9 +144,9 @@ Request :
 
 Request :
 - Method : POST
-- Endpoint : `{{local}}:3636/api/atmvideopack/v1/device/create`
+- Endpoint : `103.175.216.8:3636/api/atmvideopack/v1/device/create`
 - Header : 
-    - x-api-key : 
+    - x-api-key : YAHYAAJA
 - Body Body (form-data) :
     - tid : string, required, unique
     - ip_address : string, required
@@ -172,9 +172,9 @@ Request :
 
 Request :
 - Method : POST
-- Endpoint : `{{local}}:3737/publisher/atmvideopack/v1/downloadplayback/create`
+- Endpoint : `103.175.216.8:3737/publisher/atmvideopack/v1/downloadplayback/create`
 - Header : 
-    - x-api-key : 
+    - x-api-key : YAHYAAJA
 - Body Body (form-data) :
     - tid : string, required
     - date_modified : string, required
